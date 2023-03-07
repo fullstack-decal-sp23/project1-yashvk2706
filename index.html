@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Yash Vinay Kumar</title>
+        <author>Yash Vinay Kumar</author>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <header>
+            <img src="YouTube Profile Picture.jpg" class="profile-img">
+            <nav>
+                <ul>
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section id="hero">
+                <div class="section-inner">
+                    <img src="YouTube Profile Picture.jpg" class="profile-img">
+                    <h1>Hi, I'm Yash Vinay Kumar.</h1>
+                </div>
+            </section>
+            <section id="about">
+                <div class="section-inner">
+                    <h2>About me</h2>
+                    <p>I'm a sophomore majoring in Computer Science at UC Berkeley; I'm super passionate about all things technology, and look forward to using my skills to help people!</p>
+                    <h3>Projects</h3>
+                    <ul>
+                        <li>Product and Software at INTED: building personalized, adaptive speed solutions to playback videos at a customized pace</li>
+                        <li>NGramMaps and Timeseries: taking one or multiple words as input and outputting a visual representation of their usage over the years.</li>
+                        <li>BYOW - Build Your Own World: a 2D tile based game that generates randomized worlds every time depending on the seed inputted at the beginning of the game.</li>
+                    </ul>
+                </div>
+            </section>
+            <section id="contact">
+                <div class="section-inner">
+                    <h2>Contact me</h2>
+                    <h4>You can find me on:</h4>
+                    <ul>
+                        <li><a href="https://www.linkedin.com/in/yash-vinay-kumar-327270256/" target="_blank">LinkedIn</a></li>
+                        <li><a href="https://www.instagram.com/yash_vk2706/" target="_blank">Instagram</a></li>
+                    </ul>
+                    <h5>Or, you can <a href="mailto:yash.vinay.kumar@berkeley.edu"><button>send me an email</button></a>.</h5>
+                    <br>
+                    <h6> Or, you can write something here itself!</h6>
+                    <form class="my-form">
+                        <label>Name:</label>
+                        <input type="text" id="name">
+                        <br>
+                        <br>
+                        <label>Email:</label>
+                        <input type="text" id="email">
+                        <br>
+                        <br>
+                        <label>Message:</label>
+                        <input type="text" id="message">
+                        <br>
+                        <br>
+                        <input type="submit" onclick=thanksMessage()>
+                    </form>
+                </div>
+            </section>
+            <script>
+                function thanksMessage() {
+                    alert("Thanks for messaging me!");
+                }
+            </script>
+        </main>
+    </body>
+</html>
